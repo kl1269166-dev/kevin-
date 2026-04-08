@@ -5,41 +5,106 @@ body {
 
 h1 {
   color: white;
-  font-weight: 100;
+  font-weight: 200;
+  font-size: 64px;
+  margin: 0px;
 }
 
 .cuadro {
-  color: white;
-  border-radius: 40px;
-  padding: 150px 1px;
-  border: 1px solid rgb(110, 107, 107);
+  color: rgb(161, 159, 159);
+  border-radius: 35px;
+  width: 50%;
+  margin: 0 auto;
+  border: 1px solid hsl(51deg 16.5% 84.5% / 15%);
+  font-size: 18px;
+  font-family: Arial;
+  padding: 30px 36px;
+  display: flex;
+  flex-direction: column;
 }
-.uno {
-  margin-top: 90px;
-  text-align: center;
-  font-size: 25px;
-  margin-right: 150px;
-  letter-spacing: 2px;
-}
+
 .dos {
+  margin-right: 30px;
 }
 
 .home {
   display: grid;
-  margin-left: 350px;
   grid-template-columns: 50% 50%;
   text-align: center;
-  margin-right: 300px;
+  gap: 40px;
+  width: 77%;
+  margin: 0 auto;
+}
+
+.uno {
+  margin-top: 145px;
 }
 
 .imagen {
-  border: 1px solid rgb(110, 107, 107);
+  border: 2px solid hsl(51deg 16.5% 84.5% / 15%);
   border-radius: 20px;
-  width: 750px;
+  width: 700px;
   height: 850px;
-  size: 0cap;
 }
 .texto {
   font-size: 20px;
   letter-spacing: 0cap;
+  margin: 20px;
+}
+
+.google {
+  background-color: #141414;
+  color: white;
+  border: 1px solid rgb(110, 107, 107);
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 17px;
+  display: flex;
+  justify-content: center;
+}
+img {
+  width: 23px;
+  background-color: #141414;
+  display: flex;
+  justify-content: center;
+}
+.correo {
+  border-radius: 8px;
+
+  padding: 10px;
+  font-size: 17px;
+  color: rgb(88, 85, 85);
+}
+.letra {
+  font-size: 13px;
+  color: rgb(141, 134, 134);
+}
+
+.escritorio {
+  background-color: #141414;
+  color: white;
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid rgb(110, 107, 107);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 20px;
+  gap: 15px;
+}
+input {
+  background-color: #3b3939;
+  border: 1px solid rgb(110, 107, 107);
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 17px;
+}
+::placeholder {
+  color: rgb(141, 134, 134);
+}
+
+.texto-o {
+  margin: 5px;
 }
