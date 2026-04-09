@@ -5,22 +5,26 @@ body {
 
 h1 {
   color: white;
-  font-weight: 200;
+  font-weight: 1;
   font-size: 64px;
   margin: 0px;
+  line-height: 1.1;
+  font-family: "ui-sans-serif";
 }
 
 .cuadro {
   color: rgb(161, 159, 159);
   border-radius: 35px;
-  width: 50%;
+  width: 52%;
+  height: 210px;
   margin: 0 auto;
   border: 1px solid hsl(51deg 16.5% 84.5% / 15%);
   font-size: 18px;
-  font-family: Arial;
+  font-family: ui-sans-serif;
   padding: 30px 36px;
   display: flex;
   flex-direction: column;
+  margin-top: 47px;
 }
 
 .dos {
@@ -31,25 +35,31 @@ h1 {
   display: grid;
   grid-template-columns: 50% 50%;
   text-align: center;
-  gap: 40px;
-  width: 77%;
+  gap: 2px;
+  width: 85%;
   margin: 0 auto;
 }
 
 .uno {
-  margin-top: 145px;
+  margin-top: 148px;
+  margin-left: 75px;
+}
+.dos {
+  margin-top: 5px;
 }
 
 .imagen {
   border: 2px solid hsl(51deg 16.5% 84.5% / 15%);
   border-radius: 20px;
-  width: 700px;
-  height: 850px;
+  width: 710px;
+  height: 810px;
+  margin-right: 500px;
 }
 .texto {
   font-size: 20px;
   letter-spacing: 0cap;
   margin: 20px;
+  line-height: 0.3;
 }
 
 .google {
@@ -58,6 +68,7 @@ h1 {
   border: 1px solid rgb(110, 107, 107);
   border-radius: 8px;
   padding: 10px;
+
   font-size: 17px;
   display: flex;
   justify-content: center;
@@ -70,13 +81,13 @@ img {
 }
 .correo {
   border-radius: 8px;
-
+  margin-top: 1px;
   padding: 10px;
   font-size: 17px;
   color: rgb(88, 85, 85);
 }
 .letra {
-  font-size: 13px;
+  font-size: 14px;
   color: rgb(141, 134, 134);
 }
 
@@ -91,7 +102,8 @@ img {
   justify-content: center;
   align-items: center;
   margin: auto;
-  margin-top: 20px;
+  width: 330px;
+  margin-top: 25px;
   gap: 15px;
 }
 input {
@@ -100,11 +112,13 @@ input {
   border-radius: 8px;
   padding: 10px;
   font-size: 17px;
+  margin-top: 7px;
 }
 ::placeholder {
   color: rgb(141, 134, 134);
 }
 
 .texto-o {
-  margin: 5px;
+  margin: 6px;
+  font-size: 21px;
 }
