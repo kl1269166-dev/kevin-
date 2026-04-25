@@ -1,38 +1,4 @@
-body {
-  background-color: #141414;
-  color: white;
-}
 
-h1 {
-  color: white;
-  font-weight: 1;
-  font-size: 64px;
-  margin: 0px;
-  line-height: 1.1;
-  font-family: "ui-sans-serif";
-}
-
-.cuadro {
-  color: rgb(161, 159, 159);
-  border-radius: 35px;
-  width: 52%;
-  height: 210px;
-  margin: 0 auto;
-  border: 1px solid hsl(51deg 16.5% 84.5% / 15%);
-  font-size: 18px;
-  font-family: ui-sans-serif;
-  padding: 30px 36px;
-  display: flex;
-  flex-direction: column;
-  margin-top: 47px;
-}
-
-.dos {
-  margin-right: 30px;
-}
-
-.home {
-  display: grid;
   grid-template-columns: 50% 50%;
   text-align: center;
   gap: 2px;
