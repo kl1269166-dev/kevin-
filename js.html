@@ -8,34 +8,51 @@
 , initial-scale=1.0"
     />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="ele.css" />
     <title>Document</title>
   </head>
-  <body>
-    <main class="flex gap-10">
+  <body class="bg-gray-700">
+    <img
+      src="https://cdn-icons-png.flaticon.com/512/9679/9679146.png"
+      alt=""
+      class="w-9 h-9 m-10 ml-1"
+      id="menu-hamb"
+    />
+    <div
+      id="menu-nav"
+      class="bg-green-100 text-black text-2xl font-serif hidden"
+    >
+      <p>Gorras</p>
+      <p>Zapatillas</p>
+      <p>Remeras</p>
+    </div>
+    <main class="flex gap-7 justify-center text-center m-10 text-white">
       <div class="">
-        <h1 class="text-xl">Gorros Vans Check Side Curved Bill Jockey</h1>
+        <h1 class="text-4xl font-serif">
+          Gorros Vans Check Side Curved Bill Jockey
+        </h1>
 
         <img
           src="https://mmgrim2.azureedge.net/MediaFiles/Grimoldi/2025/9/1/11131340_800.jpg"
           alt=""
+          class="border-2 borde"
         />
-        <p>Precio:</p>
-        <p>$ 49.000</p>
-        <button></button>
+        <p class="text-2xl font-serif precio">Precio:</p>
+        <p class="text-2xl font-serif">$ 49.000</p>
       </div>
 
       <div class="">
-        <h1>Zapatillas Vans U Upland</h1>
+        <h1 class="text-4xl font-serif">Zapatillas Vans U Upland</h1>
         <img
           src="https://mmgrim2.azureedge.net/MediaFiles/Grimoldi/2026/2/4/11537706_800.jpg"
           alt=""
+          class="border-2 borde"
         />
 
-        <p>Precio:</p>
-        <p>$ 219.000</p>
-        <button></button>
+        <p class="text-2xl font-serif precio">Precio:</p>
+        <p class="text-2xl font-serif">$ 219.000</p>
       </div>
     </main>
-    <script src="./main.js"></script>
+    <script src="./clase.js"></script>
   </body>
 </html>
